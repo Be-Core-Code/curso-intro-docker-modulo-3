@@ -66,6 +66,8 @@ docker commit modulo3 alfonso:1.0.0
 > docker image rm alfonso:1.0.0
 ```
 
+^^^^^^
+
 ### Consolidar (commit) cambios
 
 La opción `--change` permite crear la nueva imagen añadiendo algunos nuevas instrucciones de  `Dockerfile`

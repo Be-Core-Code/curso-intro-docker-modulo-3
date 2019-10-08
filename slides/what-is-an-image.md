@@ -161,7 +161,7 @@ Si cada vez que tenemos que crear la imagen, tenemos que seguir todos los pasos,
 
 ### Capas (Layers)
 
-Vamos a descargar la imagen de Debian:
+Vamos a descargar la imagen de Ubuntu:
 
 
 
@@ -290,7 +290,7 @@ notes:
 Los contenedores comparten todas las capas de la imagen (que no se pueden modificar). Cada contenedor crea su propia
 capa (_container layer_) en la que añadir ficheros, modificarlos o borrarlos.
 
-Si recordáis, en el módulo anterior levantamos tres contenedores y vimos que si creábamos un fichero nuevo en uno de ellos
+Si recordáis, al principio de esta sección, levantamos tres contenedores y vimos que si creábamos un fichero nuevo en uno de ellos
 el resto no lo veía. Esta diapositiva explica el motivo por el que esto ocurre.
 
 Lectura muy recomendable: [About storage drivers](https://docs.docker.com/storage/storagedriver/)

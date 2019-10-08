@@ -5,6 +5,8 @@ El comando para descargar imágenes es `docker image pull` o `docker pull``
 * [Documentación de `docker pull`](https://docs.docker.com/engine/reference/commandline/pull/)
 * [Documentación de `docker image pull`](https://docs.docker.com/engine/reference/commandline/image_pull/)
 
+^^^^^^
+
 ### 💻 Práctica 💻
 
 * Descargar la imagen de alpine linux
