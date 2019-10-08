@@ -52,6 +52,10 @@ Para ilustrar cómo funciona `docker image ls` hacemos lo siguiente
 * Si ejecutamos un contenedor con la imagen guardada, no hace falta escribir todas las opciones de
   nuevo como cuando la exportamos. Estas opciones guardan junto con la imagen al hacer `docker save`
 
-  
+^^^^^^
 
+### Image flattering
+
+* Técnica que consiste en crear una imagen, exportarla con `docker export` y crear una nueva a partir de fichero `.tar` generado
+* De esta forma se eliminan capas intermedias y la imagen puede reducirse de tamaño
 
