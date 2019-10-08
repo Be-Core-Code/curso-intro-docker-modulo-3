@@ -1,21 +1,22 @@
 # Diapositivas del Curso de Introducción a Docker
-## Módulo 2: Gestión de contenedores
+## Módulo 3: Gestión de contenedores
 
 ## Índice
 
-* ¿Qué es un contenedor?
-* Crear un contenedor
-* Listar los contenedores
-* Ejecutar comandos en un contenedor
-* Interactuando con un contenedor en ejecución
-* Levantar, parar y borrar contenedores
-* Copiando ficheros
-* Actualizando parámetros de un contenedor
+* ¿Qué es una imagen?
+* Listar y borrar imágenes
+* Buscar imáges
+* Descargar Imágenes
+* Consolidar (commit) cambios
+* Subir imágenes
+* Exportar/importar imágenes
+* Guardar/cargar imágenes
+* Ejercicio
 
 Para ver las diapositivas:
 
 ```bash
-> docker run --rm -p "8003:8003" becorecode/curso-intro-docker-modulo-2:latest
+> docker run --rm -p "8003:8003" becorecode/curso-intro-docker-modulo-3:latest
 ```
 
 Una vez levantado el contenedor, accede con un navegador web a `http://localhost:8003`
