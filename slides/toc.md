@@ -8,7 +8,7 @@
 * [Consolidar (commit) cambios](#/commit-changes)
 * [Subir imágenes](#/upload-images)
 * [Exportar/importar imágenes](#/export-import-images) 
-* [Guardar/cargar imágenes](#/dave-load-images)
+* [Guardar/cargar imágenes](#/save-load-images)
 * [Image flattering](#/image-flattering)
 * [Ejercicio](#/exercise)
 
