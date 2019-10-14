@@ -35,7 +35,8 @@ La respuesta es que a día de hoy [no es posible](https://stackoverflow.com/ques
 1. Crear una nueva imagen de nuestro contenedor usando `docker commit` y levantar
    un nuevo contenedor con ella.
 1. Editar los ficheros de configuración del contenedor para modificar la configuración
-   "a pelo" (ver por ejemplo [este artículo](https://mybrainimage.wordpress.com/2017/02/05/docker-change-port-mapping-for-an-existing-container/))
+   "a pelo" (ver por ejemplo [las diferentes respuestas a la pregunta anterior en stack overflow](https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container/19417296#19417296) 
+   o el resumen que se hace en [este artículo](https://mybrainimage.wordpress.com/2017/02/05/docker-change-port-mapping-for-an-existing-container/))
 
 ### ¿Se puede levantar el contenedor exponiendo el puerto 3000 y luego levantar la aplicación en el puerto 3000?
 
